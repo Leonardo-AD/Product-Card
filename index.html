@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="animated">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Grape+Nuts&family=Kumbh+Sans:wght@200;300;400;500;600&family=Lato:wght@300;400&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Product Card</title>
+</head>
+<body>
+    <main id="app">
+
+        <section id="product-image">
+            <button id="btn-360" onclick="toggle()">
+                <img src="./assets/360.svg" alt="clique neste botão para iniciar a animação do sofá">
+            </button>
+
+            <button id="btn-close" onclick="toggle()">
+                <img src="./assets/close.svg" alt="clique neste botão para finalizar a animação do sofá">
+            </button>
+
+            <img id="static" src="./assets/sofa.png" alt="imagem do sofá">
+            <img id="animated" src="./assets/sofa.gif" alt="animação do sofá">
+        </section>
+
+        <section id="product-details">
+            <h4>CÓDIGO: 42404</h4>
+
+            <h1>Sofá Margot II - Rosé</h1>
+
+            <p>R$ 4.000,00</p>
+
+            <button>ADICIONAR À CESTA</button>
+        </section>
+    </main>
+
+    <script>
+        function toggle(){
+            document.documentElement.classList.toggle('animated')
+        }
+    </script>
+</body>
+</html>

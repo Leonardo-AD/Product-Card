@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+    --background-color: #D9CDF7;
+    --text-color: #271A45;
+}
+
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+
+    display: grid;
+    place-content: center;
+}
+
+body *{
+    color: var(--text-color);
+    font-family: 'Lato', sans-serif;
+    line-height: 100%;
+}
+
+#btn-close,
+#animated{
+    display: none;
+}
+
+#app{
+    display: flex;
+    align-items: center;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+#product-image{
+    position: relative;
+    margin-right: 1rem;
+}
+
+#product-image button{
+    position: absolute;
+    right: 0;
+
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+#product-image > img{
+    width: 28rem;
+    height: 14rem;
+    object-fit: cover;
+}
+
+html.animated button#btn-360,
+html.animated img#static{
+    display: none;
+}
+
+html.animated button#btn-close,
+html.animated img#animated{
+    display: initial;
+}
+
+h4{
+    font-weight: 300;
+    font-size: .7rem;
+}
+
+h1{
+    font-family: 'Crimson Pro', serif;
+    font-weight: 600;
+    font-size: 2rem;
+
+    margin-top: .8rem;
+}
+
+p{
+    margin-top: .8rem;
+    opacity: .8;
+}
+
+#product-details button{
+    font-size: .8rem;
+    line-height: 1rem;
+    margin-top: 1.2rem;
+    
+    padding: .5rem 1rem;
+    border: .5px solid var(--text-color);
+    border-radius: 1rem;
+
+    background-color: transparent;
+    cursor: pointer;
+}
