@@ -1,6 +1,6 @@
 <h1 align='center'>Product-Card</h1>
 
-<p>A Product Card challenge of Rocketseat. It's just an interface.</p>
+<p>Um desafio de Card de Produto da Rocketseat. É apenas uma interface.</p>
 
 ## Funcionalidades Desenvolvidas
 
