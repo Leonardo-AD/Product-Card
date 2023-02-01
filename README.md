@@ -21,6 +21,6 @@ Clique no botão abaixo e veja o protótipo disponibilizado pela Rocketseat.
 
 ## Deploy
 
-Acesse o projeto:
+Acesse o projeto clicando no botão abaixo.
 
 <a href="https://leonardo-ad.github.io/Product-Card/" target='_blank'>![GitHub](https://img.shields.io/badge/GitHub%20Pages-000000?style=for-the-badge&logo=github&logoColor=white)</a>
