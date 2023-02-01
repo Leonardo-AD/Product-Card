@@ -4,15 +4,18 @@
 
 <h3>Funcionalidades Desenvolvidas</h3>
 
+
 - [x] Animação 3D
 - [X] Responsividade
 
 <h3>Tecnologias</h3>
 
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 <h3>Protótipo</h3>
+
 
 Clique no botão abaixo e veja o protótipo disponibilizado pela Rocketseat:
 
@@ -21,6 +24,7 @@ Clique no botão abaixo e veja o protótipo disponibilizado pela Rocketseat:
 
 <h3>Deploy</h3>
 
+
 Acesse o projeto:
 
-<a href="leonardo-ad.github.io/Product-Card/" target='_blank'>![GitHub](https://img.shields.io/badge/GitHub%20Pages-000000?style=for-the-badge&logo=github&logoColor=white)</a>
+<a href="https://leonardo-ad.github.io/Product-Card/" target='_blank'>![GitHub](https://img.shields.io/badge/GitHub%20Pages-000000?style=for-the-badge&logo=github&logoColor=white)</a>
