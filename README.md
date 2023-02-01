@@ -14,7 +14,7 @@
 
 ## Protótipo
 
-Clique no botão abaixo e veja o protótipo disponibilizado pela Rocketseat:
+Clique no botão abaixo e veja o protótipo disponibilizado pela Rocketseat.
 
 <a href="https://www.figma.com/file/oSb9ZXTUjsqLMCK5K7kH96/%23boraCodar---Desafio-2-(Community)?node-id=0%3A1&t=9EibgV6a5cK6xe9Q-0
 ">![Figma](https://img.shields.io/badge/Acessar%20Protótipo-2A2141?style=for-the-badge&logo=figma&logoColor=white)</a>
